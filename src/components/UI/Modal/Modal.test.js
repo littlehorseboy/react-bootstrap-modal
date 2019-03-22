@@ -37,11 +37,11 @@ describe('Modal.jsx', () => {
     expect(wrapper.find('.modal-body').children().html()).toBe('<div>This is content.</div>');
   });
 
-  test('Modal => .modal-body innerHTML is `<div>This is content.</div>`', () => {
+  test('Modal => .modal-dialog not has class `hidden`', () => {
     expect(wrapper.find('.modal-dialog').hasClass('hidden')).toBeFalsy();
   });
 
-  test('Modal => .modal-body innerHTML is `<div>This is content.</div>`', () => {
+  test('Modal => .modal-dialog has class `hidden`', () => {
     wrapper.setProps({
       children: <Modal
         open={false}
