@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal component renders correctly 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "shadows": Array [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        "1px",
+      ],
+    }
+  }
+>
+  <Jss(NewsButton)
+    changeModalVisible={[Function]}
+    content={
+      <div>
+        TEST
+      </div>
+    }
+    open={true}
+    position={
+      Object {
+        "left": "250px",
+        "top": "250px",
+      }
+    }
+    title="TEST"
+    zIndex={1}
+  >
+    <NewsButton
+      changeModalVisible={[Function]}
+      classes={
+        Object {
+          "modalBody": "NewsButton-modalBody-0-1-5",
+          "modalContent": "NewsButton-modalContent-0-1-2",
+          "modalDialog": "NewsButton-modalDialog-0-1-1",
+          "modalHeader": "NewsButton-modalHeader-0-1-3",
+          "modalResizeBottom": "NewsButton-modalResizeBottom-0-1-12",
+          "modalResizeBottomCenter": "NewsButton-modalResizeBottomCenter-0-1-14",
+          "modalResizeBottomLeft": "NewsButton-modalResizeBottomLeft-0-1-13",
+          "modalResizeBottomRight": "NewsButton-modalResizeBottomRight-0-1-15",
+          "modalResizeCenterLeft": "NewsButton-modalResizeCenterLeft-0-1-10",
+          "modalResizeCenterRight": "NewsButton-modalResizeCenterRight-0-1-11",
+          "modalResizeTop": "NewsButton-modalResizeTop-0-1-6",
+          "modalResizeTopCenter": "NewsButton-modalResizeTopCenter-0-1-8",
+          "modalResizeTopLeft": "NewsButton-modalResizeTopLeft-0-1-7",
+          "modalResizeTopRight": "NewsButton-modalResizeTopRight-0-1-9",
+          "modalTitle": "NewsButton-modalTitle-0-1-4",
+        }
+      }
+      content={
+        <div>
+          TEST
+        </div>
+      }
+      open={true}
+      position={
+        Object {
+          "left": "250px",
+          "top": "250px",
+        }
+      }
+      theme={
+        Object {
+          "shadows": Array [
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            "1px",
+          ],
+        }
+      }
+      title="TEST"
+      zIndex={1}
+    >
+      <Portal
+        containerInfo={
+          <body>
+            <div
+              class="modal-dialog NewsButton-modalDialog-0-1-1"
+              style="z-index: 1; top: 250px; left: 250px;"
+            >
+              <div
+                class="modal-content NewsButton-modalContent-0-1-2"
+              >
+                <div
+                  class="modal-header NewsButton-modalHeader-0-1-3"
+                >
+                  <div
+                    class="modal-title h5 NewsButton-modalTitle-0-1-4"
+                  >
+                    TEST
+                  </div>
+                  <button
+                    class="close"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      ×
+                    </span>
+                    <span
+                      class="sr-only"
+                    >
+                      Close
+                    </span>
+                  </button>
+                </div>
+                <div
+                  class="modal-body NewsButton-modalBody-0-1-5"
+                >
+                  <div>
+                    TEST
+                  </div>
+                </div>
+                <div
+                  class="NewsButton-modalResizeTop-0-1-6"
+                >
+                  <div
+                    class="NewsButton-modalResizeTopLeft-0-1-7"
+                  />
+                  <div
+                    class="NewsButton-modalResizeTopCenter-0-1-8"
+                  />
+                  <div
+                    class="NewsButton-modalResizeTopRight-0-1-9"
+                  />
+                </div>
+                <div
+                  class="NewsButton-modalResizeCenterLeft-0-1-10"
+                />
+                <div
+                  class="NewsButton-modalResizeCenterRight-0-1-11"
+                />
+                <div
+                  class="NewsButton-modalResizeBottom-0-1-12"
+                >
+                  <div
+                    class="NewsButton-modalResizeBottomLeft-0-1-13"
+                  />
+                  <div
+                    class="NewsButton-modalResizeBottomCenter-0-1-14"
+                  />
+                  <div
+                    class="NewsButton-modalResizeBottomRight-0-1-15"
+                  />
+                </div>
+              </div>
+            </div>
+          </body>
+        }
+      >
+        <div
+          className="modal-dialog NewsButton-modalDialog-0-1-1"
+          style={
+            Object {
+              "left": "250px",
+              "top": "250px",
+              "zIndex": 1,
+            }
+          }
+        >
+          <div
+            className="modal-content NewsButton-modalContent-0-1-2"
+          >
+            <div
+              className="modal-header NewsButton-modalHeader-0-1-3"
+            >
+              <div
+                className="modal-title h5 NewsButton-modalTitle-0-1-4"
+                onMouseDown={[Function]}
+              >
+                TEST
+              </div>
+              <button
+                className="close"
+                onClick={[Function]}
+              >
+                <span
+                  aria-hidden="true"
+                >
+                  ×
+                </span>
+                <span
+                  className="sr-only"
+                >
+                  Close
+                </span>
+              </button>
+            </div>
+            <div
+              className="modal-body NewsButton-modalBody-0-1-5"
+            >
+              <div>
+                TEST
+              </div>
+            </div>
+            <div
+              className="NewsButton-modalResizeTop-0-1-6"
+            >
+              <div
+                className="NewsButton-modalResizeTopLeft-0-1-7"
+              />
+              <div
+                className="NewsButton-modalResizeTopCenter-0-1-8"
+              />
+              <div
+                className="NewsButton-modalResizeTopRight-0-1-9"
+              />
+            </div>
+            <div
+              className="NewsButton-modalResizeCenterLeft-0-1-10"
+            />
+            <div
+              className="NewsButton-modalResizeCenterRight-0-1-11"
+            />
+            <div
+              className="NewsButton-modalResizeBottom-0-1-12"
+            >
+              <div
+                className="NewsButton-modalResizeBottomLeft-0-1-13"
+              />
+              <div
+                className="NewsButton-modalResizeBottomCenter-0-1-14"
+              />
+              <div
+                className="NewsButton-modalResizeBottomRight-0-1-15"
+              />
+            </div>
+          </div>
+        </div>
+      </Portal>
+    </NewsButton>
+  </Jss(NewsButton)>
+</ThemeProvider>
+`;

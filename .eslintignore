@@ -1,0 +1,6 @@
+/dist/
+/static/
+*.png
+*.gif
+*.svg
+*.scss
