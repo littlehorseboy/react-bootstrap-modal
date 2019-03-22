@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Modal component renders correctly 1`] = `
+exports[`Modal.jsx Modal component renders correctly 1`] = `
 <ThemeProvider
   theme={
     Object {
@@ -19,7 +19,7 @@ exports[`Modal component renders correctly 1`] = `
     changeModalVisible={[Function]}
     content={
       <div>
-        TEST
+        This is content.
       </div>
     }
     open={true}
@@ -55,7 +55,7 @@ exports[`Modal component renders correctly 1`] = `
       }
       content={
         <div>
-          TEST
+          This is content.
         </div>
       }
       open={true}
@@ -117,7 +117,7 @@ exports[`Modal component renders correctly 1`] = `
                   class="modal-body NewsButton-modalBody-0-1-5"
                 >
                   <div>
-                    TEST
+                    This is content.
                   </div>
                 </div>
                 <div
@@ -199,7 +199,7 @@ exports[`Modal component renders correctly 1`] = `
               className="modal-body NewsButton-modalBody-0-1-5"
             >
               <div>
-                TEST
+                This is content.
               </div>
             </div>
             <div
