@@ -11,7 +11,7 @@ import withStyles from 'react-jss';
 const styles = theme => ({
   modalDialog: {
     margin: 0,
-    maxWidth: 'none',
+    minWidth: 260,
     position: 'absolute',
     top: '50%',
     left: '50%',
